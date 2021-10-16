@@ -8,5 +8,6 @@ install:
 # command to run tests
 before_script:
   - python manage.py migrate
+  
 script:
   - black .
